@@ -15,7 +15,7 @@ def func(message):
 @bot.message_handler()
 def chat(message):
     if message.text == 'Trainer':
-        bot.reply_to(message, "One moment...")
+        bot.reply_to(message, "One moment please...")
         with open('trainers.txt', 'r', encoding='utf-8') as file:
             bot.send_message(message.chat.id, file.read())
 
