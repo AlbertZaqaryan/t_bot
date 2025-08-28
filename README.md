@@ -1,4 +1,4 @@
-
+```
 # t_bot
 
 **t_bot** — A Python Telegram bot built using **pytelegrambotapi** and **Selenium WebDriver** for automation tasks.
